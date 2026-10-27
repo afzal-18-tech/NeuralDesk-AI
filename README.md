@@ -29,7 +29,7 @@ flowchart LR
   R --> F
 ```
 
-See [docs/architecture.md](docs/architecture.md) and [docs/implementation_log.md](docs/implementation_log.md).
+See the [project case study](docs/FINAL_PROJECT_REPORT.md), [architecture overview](docs/architecture.md), and [implementation log](docs/implementation_log.md).
 
 ## Stack and model
 
