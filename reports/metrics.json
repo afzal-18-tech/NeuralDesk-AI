@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.987785016286645,
+  "macro_precision": 0.9876543468186204,
+  "macro_recall": 0.9871236056754527,
+  "macro_f1": 0.987279608729999,
+  "weighted_f1": 0.9877773360542922,
+  "test_rows": 3684,
+  "class_count": 27,
+  "metric_source": "held-out test set",
+  "confidence_note": "Scores are model outputs, not calibrated probabilities."
+}

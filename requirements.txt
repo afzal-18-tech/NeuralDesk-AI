@@ -1,0 +1,13 @@
+# Use Python 3.11 on Windows 11
+numpy==1.26.4
+pandas==2.2.3
+pyarrow==19.0.1
+tensorflow==2.16.1
+datasets==3.2.0
+scikit-learn==1.6.1
+matplotlib==3.10.0
+fastapi==0.115.8
+pydantic==2.10.6
+uvicorn[standard]==0.34.0
+httpx==0.28.1
+pytest==8.3.4

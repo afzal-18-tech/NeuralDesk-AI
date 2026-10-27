@@ -1,0 +1,2 @@
+import{describe,it,expect,vi,afterEach}from'vitest';import{predict}from'../services/api.js';
+afterEach(()=>vi.unstubAllGlobals());describe('API client',()=>{it('returns parsed prediction',async()=>{vi.stubGlobal('fetch',vi.fn().mockResolvedValue({ok:true,json:async()=>({predicted_intent:'x'})}));await expect(predict('hello')).resolves.toEqual({predicted_intent:'x'})});it('surfaces backend errors',async()=>{vi.stubGlobal('fetch',vi.fn().mockResolvedValue({ok:false,status:422,json:async()=>({detail:'invalid'})}));await expect(predict('')).rejects.toThrow('invalid')})});
