@@ -29,5 +29,3 @@ def test_real_model_integration():
     batch = engine.predict_many(["Where is my order?", "Can I get a refund?"])
     assert len(batch) == 2
     assert batch[0]["predicted_intent"] in engine.labels
-
-\n

@@ -27,5 +27,3 @@
 - Enhanced batch processing: added multi-column sorting (Row, Ticket, Intent, Category, Confidence), live text search, review-only filter chips, and enriched CSV export with review status and top alternatives.
 - Created collapsible `ModelDiagnostics` component (`frontend/src/components/ModelDiagnostics.jsx`) with live confusion matrix plot and interactive per-class precision/recall/F1 table across all 27 intent classes.
 - Compacted hero section and curated 4 high-quality example prompts that directly map to verified dataset classes.
-
-\n

@@ -56,5 +56,3 @@ def test_real_api_integration():
         batch = client.post('/predict/batch', json={'texts': ['Where is my delivery?', 'Cancel my order please']})
         assert batch.status_code == 200
         assert batch.json()['count'] == 2
-
-\n
