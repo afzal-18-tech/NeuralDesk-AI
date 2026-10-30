@@ -61,5 +61,3 @@ def confusion_matrix_image():
     if not cm_path.exists():
         raise HTTPException(status_code=404, detail="Confusion matrix not generated")
     return FileResponse(cm_path, media_type="image/png")
-
-\n
